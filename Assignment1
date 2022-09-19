@@ -1,0 +1,54 @@
+1: #Negative indexing on step index
+
+b="Senior Software Engineer"
+print(b[0:24])
+print(b[2])
+print(b[4:7:3])
+print(b[-24:10:2])
+print(b[-11:24:4])
+
+2: #Slicing And Negaive Slicing
+
+F=("Family_Members")
+print(F[2:4])
+print(F[-10:6:3])
+print(F[-12:2])
+print(F[-14:])
+print(len(F))
+
+
+
+3: #step index
+
+b="Senior Software Engineer"
+print(b[0:24])
+print(b[2])
+print(b[4:7:3])
+print(b[-24:10:2])
+print(b[-11:24:4])
+
+
+4: #Frozen set
+
+cast = ['Millie', 'Winona', 'David', 'Finn', 'Gaten', 'Caleb']
+print(cast);
+
+#update frozen set
+cast[2]=False
+print(cast)
+print(len(cast))
+
+#Append frozen set
+cast.append("farah")
+print(cast)
+print(len(cast))
+
+# in frozen set  DOES NOT ACCEPT ADDITION
+
+#cast.add("Abdikhabir")
+#print(cast)
+
+# in frozen set ALSO DOES NOT ACCEPT DELETION
+
+#del cast[7]
+#print(cast
