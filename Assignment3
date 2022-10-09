@@ -1,4 +1,4 @@
-#R W R+
+#R W A+
 
 print("[[READING FILE WITH THE HELP OF READ MODE]] \n")
 
