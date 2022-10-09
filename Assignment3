@@ -1,0 +1,37 @@
+#R W R+
+
+print("[[READING FILE WITH THE HELP OF READ MODE]] \n")
+
+farah_file=open("farah's_file.txt","r")
+print(farah_file.read())
+    
+
+farah_file.close()
+
+
+print("<<<<<<<WRITING FILE WITH THE HELP OF WRITE MODE>>>>>>")
+
+farah_file=open("w_r_a_file.txt","w")
+farah_file.write("THIS IS NO EXACTLY WHAT I WANTED \n")
+
+
+print("-----APPENDING FILE WITH THE HELP OF APPEND MODE-----")
+
+with open("farah's_file.txt","a+" as myfile:
+          myfile.write("Let's get rid of this")
+          
+          
+          
+#CALCULATOR
+
+print("To find your age please follow these steps!")
+
+print("------------------------------")
+
+num1 = (input("Enter your birthday date: "))
+num2 = (input("Enter the current year you're living now: "))
+
+
+result = int(num1)-int(num2)
+
+print("You're {} years old ".format(result))
