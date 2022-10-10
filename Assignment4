@@ -1,0 +1,19 @@
+#String_formating
+
+print("your name is {name}".format(name="farah"))
+
+nme="Toch"
+print("FETCH MY " +nme);
+
+BOOK = "This book is {Rupees:.2f} Rupees!"
+print(BOOK.format(Rupees = 12))
+
+name = "FARAH MOHAMOUD"
+print(f"Hello And Welcome mr!  {name}")
+
+maximum_price = 95
+minimum_price = 15
+print(f"{maximum_price=:,}  |  {minimum_price=:,}")
+
+Height=1.80
+print("Your Height is ",Height)
