@@ -1,0 +1,27 @@
+operand1=(input("Enter your first operand: "))
+operator=(input("Which operation you want to perform (+)(-)(*)(/)(%): "))
+operand2=(input("Enter your second operand: "))
+
+operand1 = int (operand1)
+operand2 = int (operand2)
+
+if operator== '+':
+    print('Your Addtion is',operand1 + operand2)
+
+elif operator=='-':
+    print('Your Subtraction is',operand1 - operand2)
+
+elif operator=='*':
+    print('Your Multiplication is',operand1 * operand2)
+
+elif operator=='/':
+    print('Your Division is',operand1 / operand2)
+
+elif operator=='%':
+    print('Your Reminder is',operand1 % operand2)
+
+elif operator=='0':
+    print("Zero is not an operator please select a proper operator")
+
+else:
+    print(False)
